@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>easyfeed</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+       integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+       integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+       crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+       integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+       crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+       integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+       crossorigin="anonymous"></script>
+    <style>
+        .container {
+            margin-top: 40px;
+        }
+ 
+        .container2 {
+            background-attachment: relative;
+            position: relative;
+            max-width: 100%;
+            height: 150vh;
+            margin: auto;
+        }
+ 
+        #bg-image {
+            background: url(https://i.ibb.co/X8Qn0yK/feeding-bird.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            border-radius: 18px;
+            height: 100%;
+        }
+ 
+        .custom-box {
+            background: rgba(0, 0, 0, 0.5);
+            position: absolute;
+            box-shadow: 0 0 15px 10px rgba(0, 0, 0, 0.5);
+            border-radius: 25px 0;
+            padding: 5px;
+            color: rgb(15, 152, 194);
+            overflow: hidden;
+        }
+ 
+        .tsign-up {
+            top: 12%;
+            left: 5%;
+            max-width: 45%;
+        }
+ 
+        .tlog-in {
+            top: 33%;
+            right: 5%;
+            max-width: 35%;
+        }
+    </style>
+</head>
+ 
+<body>
+    <div class="row">
+        <div class="col-12">
+            <nav class="navbar navbar-light bg-light">
+                <a class="navbar-brand" href="#my-slider">
+                    <img src="http://logodesignfx.com/wp-content/uploads/2019/04/e-f-logo-1.jpg" width="30" height="30"
+                       class="d-inline-block align-top" alt="">
+                    <b>Easy Feed</b>
+                    <nav class="navbar navbar-light bg-light">
+                        <a class="navbar-brand"></a>
+                        <form class="form-inline">
+                            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                        </form>
+                    </nav>
+                </a>
+            </nav>
+ 
+            <div id="my-slider" class="carousel slide" data-ride="carousel">
+                <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img style="filter: blur(.5px);"
+                               src="https://dslv9ilpbe7p1.cloudfront.net/x0qBm6cALWX-q2SYVikfxw_store_banner_image.jpeg"
+                               width="800px" height="400px" class="d-block w-100" alt="poultry">
+                            <div class="carousel-caption d-none d-md-block" style="color:rgb(2, 2, 10);">
+                                <h2>Sign up TODAY!</h2>
+                                <p>Own a feed mill?<br>Create an account today for free!</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img style="filter: blur(.5px);"
+                               src="https://www.lightcastlebd.com/wp-content/uploads/2019/04/fisheries_partners_initiative_bangladesh_post_image1.jpg"
+                               width="800px" height="400px" class="d-block w-100" alt="Fish">
+                            <div class="carousel-caption d-none d-md-block" style="color:rgb(226, 235, 226);" id="pic1">
+                                <h2>Sign up TODAY!</h2>
+                                <p>We are here to make your production easyer</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img style="filter: blur(.5px);"
+                               src="https://rcf.fr/sites/default/static.rcf.fr/radios/rcf39/visuels/troupeau_vaches.jpg"
+                               width="800px" height="400px" class="d-block w-100" alt="catle">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h2>Sign up today!</h2>
+                                <p>Welcome to this site</p>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#my-slider" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#my-slider" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section id="form-section">
+        <div class="container">
+            <div class="row" id="bg-image">
+                <div class="">
+                    <div>
+                        <h3>Sign up </h3>
+                        <form class="mb-3">
+                            <div class="form-row">
+                                <div class="col-12">
+                                    <label for="validationServer01">First name</label>
+                                    <input type="text" class="form-control is-valid" id="validationServer01"
+                                       placeholder="Mark" required autofocus class="form-control form-control-lg rounded-0 ">
+                                    <div class="valid-feedback">
+                                        Looks good!
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <label for="validationServer02">Last name</label>
+                                    <input type="text" class="form-control is-valid" id="validationServer02"
+                                       placeholder="Joe" required autofocus class="form-control form-control-lg rounded-0 ">
+                                    <div class="valid-feedback">
+                                        Looks good!
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <label for="validationServerUsername">Username</label>
+                                    <div class="input-group">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text" id="inputGroupPrepend3">@</span>
+                                        </div>
+                                        <input type="text" class="form-control is-invalid" id="validationServerUsername"
+                                           aria-describedby="inputGroupPrepend3" required autofocus class="form-control form-control-lg rounded-0 ">
+                                        <div class="invalid-feedback">
+                                            Please choose a username.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="col-12">
+                                    <label for="validationServer03">City</label>
+                                    <input type="text" class="form-control is-invalid" id="validationServer03" required autofocus class="form-control form-control-lg rounded-0 ">
+                                    <div class="invalid-feedback">
+                                        Please provide a valid city.
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <label for="validationServer04">State</label>
+                                    <select class="custom-select is-invalid" id="validationServer04" required autofocus class="form-control form-control-lg rounded-0 ">
+                                        <option selected disabled value="">Choose</option>
+                                        <option>Algeria</option>
+                                        <option>Bangladesh</option>
+                                        <option>China</option>
+                                        <option>Dubai</option>
+ 
+                                    </select>
+                                    <div class="invalid-feedback">
+                                        Please select a valid state.
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <label for="validationServer05">Zip</label>
+                                    <input type="text" class="form-control is-invalid" id="validationServer05" required autofocus class="form-control form-control-lg rounded-0 ">
+                                    <div class="invalid-feedback">
+                                        Please provide a valid zip.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="form-check">
+                                    <input class="form-check-input is-invalid" type="checkbox" value=""
+                                       id="invalidCheck3" required autofocus class="form-control form-control-lg rounded-0 ">
+                                    <label class="form-check-label" for="invalidCheck3">
+                                        Agree to terms and conditions
+                                    </label>
+                                    <div class="invalid-feedback">
+                                        You must agree before submitting.
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="btn btn-primary" onclick="myFunction()" type="submit">Sign up</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-md-12 col-lg-6">
+                    <div>
+                        <h3>Log In</h3>
+                        <form>
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Email address</label>
+                                
+                                <input id="exampleInputEmail1" type="email" name="email" value placeholder="john@doe.com" required autofocus class="form-control form-control-lg rounded-0 ">
+                                <small id="emailHelp" class="form-text text-muted">We'll never share your email with
+                                    anyone
+                                    else.</small>
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputPassword1">Password</label>
+                                <input type="password" class="form-control" id="exampleInputPassword1">
+                            </div>
+                            <div class="form-group form-check">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                <label class="form-check-label" for="exampleCheck1">Remember me</label>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Log in</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p class="text-center">&copy; All Right reserve by 2019</p>
+    </footer>
+ 
+    <script>
+        $(".carousel").carousel({
+            pause: 'hover'
+        })
+    </script>
+ 
+    <script>
+        function myFunction() {
+            alert("Welcome to EasyFeed\n\nYou have signed up!");
+        }
+    </script>
+</body>
+ 
+</html>
